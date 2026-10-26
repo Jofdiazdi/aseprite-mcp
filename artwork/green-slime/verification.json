@@ -1,0 +1,160 @@
+{
+  "document": {
+    "document_id": "doc-f3404de91a5f491ed3317b95b92942bb",
+    "revision": "0:d89ab75f",
+    "width": 32,
+    "height": 32,
+    "color_mode": "rgba",
+    "modified": false,
+    "path": "artwork/green-slime/green-slime.aseprite",
+    "layers": [
+      {
+        "layer_id": "aace8a47-c746-43ab-b584-2f40dca88141",
+        "name": "Shadow",
+        "kind": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 255
+      },
+      {
+        "layer_id": "f06b3ad5-c275-43f3-9f00-01db83d8bfb8",
+        "name": "Slime",
+        "kind": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 255
+      }
+    ],
+    "frames": [
+      {
+        "number": 1,
+        "duration_ms": 110
+      },
+      {
+        "number": 2,
+        "duration_ms": 80
+      },
+      {
+        "number": 3,
+        "duration_ms": 80
+      },
+      {
+        "number": 4,
+        "duration_ms": 100
+      },
+      {
+        "number": 5,
+        "duration_ms": 110
+      },
+      {
+        "number": 6,
+        "duration_ms": 80
+      },
+      {
+        "number": 7,
+        "duration_ms": 80
+      },
+      {
+        "number": 8,
+        "duration_ms": 120
+      }
+    ],
+    "palettes": [
+      {
+        "frame": 1,
+        "colors": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            22,
+            61,
+            46,
+            255
+          ],
+          [
+            36,
+            91,
+            53,
+            255
+          ],
+          [
+            29,
+            122,
+            64,
+            255
+          ],
+          [
+            48,
+            164,
+            65,
+            255
+          ],
+          [
+            99,
+            207,
+            75,
+            255
+          ],
+          [
+            151,
+            237,
+            95,
+            255
+          ],
+          [
+            199,
+            255,
+            151,
+            255
+          ],
+          [
+            242,
+            255,
+            215,
+            255
+          ],
+          [
+            17,
+            43,
+            42,
+            255
+          ],
+          [
+            244,
+            161,
+            130,
+            255
+          ],
+          [
+            24,
+            52,
+            44,
+            85
+          ]
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "name": "bounce",
+        "from": 1,
+        "to": 8,
+        "direction": "forward"
+      }
+    ]
+  },
+  "gif_dimensions": [
+    32,
+    32
+  ],
+  "loop_duration_ms": 760,
+  "preview_dimensions": [
+    256,
+    256
+  ],
+  "verified": true
+}

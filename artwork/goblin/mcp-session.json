@@ -1,0 +1,554 @@
+[
+  {
+    "tool": "get_status",
+    "result": {
+      "api_version": 41,
+      "aseprite_version": "1.0-b3",
+      "capabilities": {
+        "explicit_save": true,
+        "redo": false,
+        "undo": false
+      },
+      "mode": "batch",
+      "protocol": 1,
+      "workspace": "artwork/goblin"
+    }
+  },
+  {
+    "tool": "create_document",
+    "result": {
+      "color_mode": "rgba",
+      "document_id": "doc-091bfa8dc7931097ab15b433169b9446",
+      "frames": [
+        {
+          "duration_ms": 100,
+          "number": 1
+        }
+      ],
+      "height": 48,
+      "layers": [
+        {
+          "kind": "image",
+          "layer_id": "e4597aff-bb4a-4627-b4d9-f20643bed813",
+          "locked": false,
+          "name": "Layer 1",
+          "opacity": 255,
+          "visible": true
+        }
+      ],
+      "modified": true,
+      "palettes": [
+        {
+          "colors": [
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "frame": 1
+        }
+      ],
+      "revision": "0:9afc2d2b",
+      "tags": [],
+      "width": 48
+    }
+  },
+  {
+    "tool": "apply_edits",
+    "result": {
+      "color_mode": "rgba",
+      "document_id": "doc-091bfa8dc7931097ab15b433169b9446",
+      "frames": [
+        {
+          "duration_ms": 180,
+          "number": 1
+        },
+        {
+          "duration_ms": 140,
+          "number": 2
+        },
+        {
+          "duration_ms": 140,
+          "number": 3
+        },
+        {
+          "duration_ms": 180,
+          "number": 4
+        },
+        {
+          "duration_ms": 160,
+          "number": 5
+        },
+        {
+          "duration_ms": 80,
+          "number": 6
+        },
+        {
+          "duration_ms": 140,
+          "number": 7
+        },
+        {
+          "duration_ms": 180,
+          "number": 8
+        }
+      ],
+      "height": 48,
+      "layers": [
+        {
+          "kind": "image",
+          "layer_id": "e4597aff-bb4a-4627-b4d9-f20643bed813",
+          "locked": false,
+          "name": "Shadow",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "b3e1c0bf-a6f1-4dda-901b-20e1a304131d",
+          "locked": false,
+          "name": "Body",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "e0695d86-dfac-4461-babb-64b7ded46a9f",
+          "locked": false,
+          "name": "Weapon",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "ce042f17-6190-48b2-9b2e-5b3f7b953183",
+          "locked": false,
+          "name": "Head",
+          "opacity": 255,
+          "visible": true
+        }
+      ],
+      "modified": true,
+      "palettes": [
+        {
+          "colors": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              26,
+              31,
+              37,
+              255
+            ],
+            [
+              48,
+              91,
+              62,
+              255
+            ],
+            [
+              67,
+              130,
+              65,
+              255
+            ],
+            [
+              97,
+              165,
+              75,
+              255
+            ],
+            [
+              150,
+              199,
+              91,
+              255
+            ],
+            [
+              128,
+              128,
+              71,
+              255
+            ],
+            [
+              40,
+              51,
+              39,
+              255
+            ],
+            [
+              66,
+              78,
+              47,
+              255
+            ],
+            [
+              126,
+              76,
+              48,
+              255
+            ],
+            [
+              78,
+              49,
+              39,
+              255
+            ],
+            [
+              183,
+              117,
+              65,
+              255
+            ],
+            [
+              48,
+              36,
+              35,
+              255
+            ],
+            [
+              207,
+              150,
+              59,
+              255
+            ],
+            [
+              255,
+              213,
+              105,
+              255
+            ],
+            [
+              164,
+              190,
+              185,
+              255
+            ],
+            [
+              94,
+              120,
+              129,
+              255
+            ],
+            [
+              234,
+              244,
+              214,
+              255
+            ],
+            [
+              22,
+              29,
+              34,
+              90
+            ]
+          ],
+          "frame": 1
+        }
+      ],
+      "revision": "0:a6f0a351",
+      "tags": [
+        {
+          "direction": "forward",
+          "from": 1,
+          "name": "idle",
+          "to": 8
+        }
+      ],
+      "width": 48
+    }
+  },
+  {
+    "tool": "render_preview",
+    "result": {
+      "document_id": "doc-091bfa8dc7931097ab15b433169b9446",
+      "frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "region": {
+        "height": 48,
+        "width": 48,
+        "x": 0,
+        "y": 0
+      },
+      "revision": "0:a6f0a351",
+      "scale": 5
+    }
+  },
+  {
+    "tool": "render_onion_skin",
+    "result": {
+      "document_id": "doc-091bfa8dc7931097ab15b433169b9446",
+      "frames": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "region": {
+        "height": 48,
+        "width": 48,
+        "x": 0,
+        "y": 0
+      },
+      "revision": "0:a6f0a351",
+      "scale": 5
+    }
+  },
+  {
+    "tool": "compare_frames",
+    "result": {
+      "changed_bounds": {
+        "height": 37,
+        "width": 39,
+        "x": 5,
+        "y": 2
+      },
+      "changed_percent": 26,
+      "changed_pixels": 599,
+      "document_id": "doc-091bfa8dc7931097ab15b433169b9446",
+      "revision": "0:a6f0a351",
+      "total_pixels": 2304
+    }
+  },
+  {
+    "tool": "save_document",
+    "result": {
+      "color_mode": "rgba",
+      "document_id": "doc-091bfa8dc7931097ab15b433169b9446",
+      "frames": [
+        {
+          "duration_ms": 180,
+          "number": 1
+        },
+        {
+          "duration_ms": 140,
+          "number": 2
+        },
+        {
+          "duration_ms": 140,
+          "number": 3
+        },
+        {
+          "duration_ms": 180,
+          "number": 4
+        },
+        {
+          "duration_ms": 160,
+          "number": 5
+        },
+        {
+          "duration_ms": 80,
+          "number": 6
+        },
+        {
+          "duration_ms": 140,
+          "number": 7
+        },
+        {
+          "duration_ms": 180,
+          "number": 8
+        }
+      ],
+      "height": 48,
+      "layers": [
+        {
+          "kind": "image",
+          "layer_id": "e4597aff-bb4a-4627-b4d9-f20643bed813",
+          "locked": false,
+          "name": "Shadow",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "b3e1c0bf-a6f1-4dda-901b-20e1a304131d",
+          "locked": false,
+          "name": "Body",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "e0695d86-dfac-4461-babb-64b7ded46a9f",
+          "locked": false,
+          "name": "Weapon",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "ce042f17-6190-48b2-9b2e-5b3f7b953183",
+          "locked": false,
+          "name": "Head",
+          "opacity": 255,
+          "visible": true
+        }
+      ],
+      "modified": false,
+      "palettes": [
+        {
+          "colors": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              26,
+              31,
+              37,
+              255
+            ],
+            [
+              48,
+              91,
+              62,
+              255
+            ],
+            [
+              67,
+              130,
+              65,
+              255
+            ],
+            [
+              97,
+              165,
+              75,
+              255
+            ],
+            [
+              150,
+              199,
+              91,
+              255
+            ],
+            [
+              128,
+              128,
+              71,
+              255
+            ],
+            [
+              40,
+              51,
+              39,
+              255
+            ],
+            [
+              66,
+              78,
+              47,
+              255
+            ],
+            [
+              126,
+              76,
+              48,
+              255
+            ],
+            [
+              78,
+              49,
+              39,
+              255
+            ],
+            [
+              183,
+              117,
+              65,
+              255
+            ],
+            [
+              48,
+              36,
+              35,
+              255
+            ],
+            [
+              207,
+              150,
+              59,
+              255
+            ],
+            [
+              255,
+              213,
+              105,
+              255
+            ],
+            [
+              164,
+              190,
+              185,
+              255
+            ],
+            [
+              94,
+              120,
+              129,
+              255
+            ],
+            [
+              234,
+              244,
+              214,
+              255
+            ],
+            [
+              22,
+              29,
+              34,
+              90
+            ]
+          ],
+          "frame": 1
+        }
+      ],
+      "path": "artwork/goblin/goblin.aseprite",
+      "revision": "0:a6f0a351",
+      "tags": [
+        {
+          "direction": "forward",
+          "from": 1,
+          "name": "idle",
+          "to": 8
+        }
+      ],
+      "width": 48
+    }
+  },
+  {
+    "tool": "export_document",
+    "result": {
+      "files": [
+        "artwork/goblin/goblin.gif"
+      ],
+      "revision": "0:a6f0a351"
+    }
+  },
+  {
+    "tool": "export_document",
+    "result": {
+      "files": [
+        "artwork/goblin/goblin-sheet.png",
+        "artwork/goblin/goblin-sheet.json"
+      ],
+      "revision": "0:a6f0a351"
+    }
+  }
+]

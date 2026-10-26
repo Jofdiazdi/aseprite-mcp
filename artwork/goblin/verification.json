@@ -1,0 +1,218 @@
+{
+  "document": {
+    "document_id": "doc-1fd92b1b486bff664c009764d72e9c6b",
+    "revision": "0:a6f0a351",
+    "width": 48,
+    "height": 48,
+    "color_mode": "rgba",
+    "modified": false,
+    "path": "artwork/goblin/goblin.aseprite",
+    "layers": [
+      {
+        "layer_id": "e4597aff-bb4a-4627-b4d9-f20643bed813",
+        "name": "Shadow",
+        "kind": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 255
+      },
+      {
+        "layer_id": "b3e1c0bf-a6f1-4dda-901b-20e1a304131d",
+        "name": "Body",
+        "kind": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 255
+      },
+      {
+        "layer_id": "e0695d86-dfac-4461-babb-64b7ded46a9f",
+        "name": "Weapon",
+        "kind": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 255
+      },
+      {
+        "layer_id": "ce042f17-6190-48b2-9b2e-5b3f7b953183",
+        "name": "Head",
+        "kind": "image",
+        "visible": true,
+        "locked": false,
+        "opacity": 255
+      }
+    ],
+    "frames": [
+      {
+        "number": 1,
+        "duration_ms": 180
+      },
+      {
+        "number": 2,
+        "duration_ms": 140
+      },
+      {
+        "number": 3,
+        "duration_ms": 140
+      },
+      {
+        "number": 4,
+        "duration_ms": 180
+      },
+      {
+        "number": 5,
+        "duration_ms": 160
+      },
+      {
+        "number": 6,
+        "duration_ms": 80
+      },
+      {
+        "number": 7,
+        "duration_ms": 140
+      },
+      {
+        "number": 8,
+        "duration_ms": 180
+      }
+    ],
+    "palettes": [
+      {
+        "frame": 1,
+        "colors": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            26,
+            31,
+            37,
+            255
+          ],
+          [
+            48,
+            91,
+            62,
+            255
+          ],
+          [
+            67,
+            130,
+            65,
+            255
+          ],
+          [
+            97,
+            165,
+            75,
+            255
+          ],
+          [
+            150,
+            199,
+            91,
+            255
+          ],
+          [
+            128,
+            128,
+            71,
+            255
+          ],
+          [
+            40,
+            51,
+            39,
+            255
+          ],
+          [
+            66,
+            78,
+            47,
+            255
+          ],
+          [
+            126,
+            76,
+            48,
+            255
+          ],
+          [
+            78,
+            49,
+            39,
+            255
+          ],
+          [
+            183,
+            117,
+            65,
+            255
+          ],
+          [
+            48,
+            36,
+            35,
+            255
+          ],
+          [
+            207,
+            150,
+            59,
+            255
+          ],
+          [
+            255,
+            213,
+            105,
+            255
+          ],
+          [
+            164,
+            190,
+            185,
+            255
+          ],
+          [
+            94,
+            120,
+            129,
+            255
+          ],
+          [
+            234,
+            244,
+            214,
+            255
+          ],
+          [
+            22,
+            29,
+            34,
+            90
+          ]
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "name": "idle",
+        "from": 1,
+        "to": 8,
+        "direction": "forward"
+      }
+    ]
+  },
+  "gif_dimensions": [
+    48,
+    48
+  ],
+  "loop_duration_ms": 1200,
+  "preview_dimensions": [
+    384,
+    384
+  ],
+  "verified": true
+}

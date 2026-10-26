@@ -1,0 +1,438 @@
+[
+  {
+    "tool": "get_status",
+    "result": {
+      "api_version": 41,
+      "aseprite_version": "1.0-b3",
+      "capabilities": {
+        "explicit_save": true,
+        "redo": false,
+        "undo": false
+      },
+      "mode": "batch",
+      "protocol": 1,
+      "workspace": "artwork/green-slime"
+    }
+  },
+  {
+    "tool": "create_document",
+    "result": {
+      "color_mode": "rgba",
+      "document_id": "doc-1a7b05ac5ff4af7c3fa5fa38220e536e",
+      "frames": [
+        {
+          "duration_ms": 100,
+          "number": 1
+        }
+      ],
+      "height": 32,
+      "layers": [
+        {
+          "kind": "image",
+          "layer_id": "aace8a47-c746-43ab-b584-2f40dca88141",
+          "locked": false,
+          "name": "Layer 1",
+          "opacity": 255,
+          "visible": true
+        }
+      ],
+      "modified": true,
+      "palettes": [
+        {
+          "colors": [
+            [
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "frame": 1
+        }
+      ],
+      "revision": "0:e9582d02",
+      "tags": [],
+      "width": 32
+    }
+  },
+  {
+    "tool": "apply_edits",
+    "result": {
+      "color_mode": "rgba",
+      "document_id": "doc-1a7b05ac5ff4af7c3fa5fa38220e536e",
+      "frames": [
+        {
+          "duration_ms": 110,
+          "number": 1
+        },
+        {
+          "duration_ms": 80,
+          "number": 2
+        },
+        {
+          "duration_ms": 80,
+          "number": 3
+        },
+        {
+          "duration_ms": 100,
+          "number": 4
+        },
+        {
+          "duration_ms": 110,
+          "number": 5
+        },
+        {
+          "duration_ms": 80,
+          "number": 6
+        },
+        {
+          "duration_ms": 80,
+          "number": 7
+        },
+        {
+          "duration_ms": 120,
+          "number": 8
+        }
+      ],
+      "height": 32,
+      "layers": [
+        {
+          "kind": "image",
+          "layer_id": "aace8a47-c746-43ab-b584-2f40dca88141",
+          "locked": false,
+          "name": "Shadow",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "f06b3ad5-c275-43f3-9f00-01db83d8bfb8",
+          "locked": false,
+          "name": "Slime",
+          "opacity": 255,
+          "visible": true
+        }
+      ],
+      "modified": true,
+      "palettes": [
+        {
+          "colors": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              22,
+              61,
+              46,
+              255
+            ],
+            [
+              36,
+              91,
+              53,
+              255
+            ],
+            [
+              29,
+              122,
+              64,
+              255
+            ],
+            [
+              48,
+              164,
+              65,
+              255
+            ],
+            [
+              99,
+              207,
+              75,
+              255
+            ],
+            [
+              151,
+              237,
+              95,
+              255
+            ],
+            [
+              199,
+              255,
+              151,
+              255
+            ],
+            [
+              242,
+              255,
+              215,
+              255
+            ],
+            [
+              17,
+              43,
+              42,
+              255
+            ],
+            [
+              244,
+              161,
+              130,
+              255
+            ],
+            [
+              24,
+              52,
+              44,
+              85
+            ]
+          ],
+          "frame": 1
+        }
+      ],
+      "revision": "0:d89ab75f",
+      "tags": [
+        {
+          "direction": "forward",
+          "from": 1,
+          "name": "bounce",
+          "to": 8
+        }
+      ],
+      "width": 32
+    }
+  },
+  {
+    "tool": "render_preview",
+    "result": {
+      "document_id": "doc-1a7b05ac5ff4af7c3fa5fa38220e536e",
+      "frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "region": {
+        "height": 32,
+        "width": 32,
+        "x": 0,
+        "y": 0
+      },
+      "revision": "0:d89ab75f",
+      "scale": 6
+    }
+  },
+  {
+    "tool": "render_onion_skin",
+    "result": {
+      "document_id": "doc-1a7b05ac5ff4af7c3fa5fa38220e536e",
+      "frames": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "region": {
+        "height": 32,
+        "width": 32,
+        "x": 0,
+        "y": 0
+      },
+      "revision": "0:d89ab75f",
+      "scale": 6
+    }
+  },
+  {
+    "tool": "compare_frames",
+    "result": {
+      "changed_bounds": {
+        "height": 28,
+        "width": 20,
+        "x": 6,
+        "y": 2
+      },
+      "changed_percent": 40.53,
+      "changed_pixels": 415,
+      "document_id": "doc-1a7b05ac5ff4af7c3fa5fa38220e536e",
+      "revision": "0:d89ab75f",
+      "total_pixels": 1024
+    }
+  },
+  {
+    "tool": "save_document",
+    "result": {
+      "color_mode": "rgba",
+      "document_id": "doc-1a7b05ac5ff4af7c3fa5fa38220e536e",
+      "frames": [
+        {
+          "duration_ms": 110,
+          "number": 1
+        },
+        {
+          "duration_ms": 80,
+          "number": 2
+        },
+        {
+          "duration_ms": 80,
+          "number": 3
+        },
+        {
+          "duration_ms": 100,
+          "number": 4
+        },
+        {
+          "duration_ms": 110,
+          "number": 5
+        },
+        {
+          "duration_ms": 80,
+          "number": 6
+        },
+        {
+          "duration_ms": 80,
+          "number": 7
+        },
+        {
+          "duration_ms": 120,
+          "number": 8
+        }
+      ],
+      "height": 32,
+      "layers": [
+        {
+          "kind": "image",
+          "layer_id": "aace8a47-c746-43ab-b584-2f40dca88141",
+          "locked": false,
+          "name": "Shadow",
+          "opacity": 255,
+          "visible": true
+        },
+        {
+          "kind": "image",
+          "layer_id": "f06b3ad5-c275-43f3-9f00-01db83d8bfb8",
+          "locked": false,
+          "name": "Slime",
+          "opacity": 255,
+          "visible": true
+        }
+      ],
+      "modified": false,
+      "palettes": [
+        {
+          "colors": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              22,
+              61,
+              46,
+              255
+            ],
+            [
+              36,
+              91,
+              53,
+              255
+            ],
+            [
+              29,
+              122,
+              64,
+              255
+            ],
+            [
+              48,
+              164,
+              65,
+              255
+            ],
+            [
+              99,
+              207,
+              75,
+              255
+            ],
+            [
+              151,
+              237,
+              95,
+              255
+            ],
+            [
+              199,
+              255,
+              151,
+              255
+            ],
+            [
+              242,
+              255,
+              215,
+              255
+            ],
+            [
+              17,
+              43,
+              42,
+              255
+            ],
+            [
+              244,
+              161,
+              130,
+              255
+            ],
+            [
+              24,
+              52,
+              44,
+              85
+            ]
+          ],
+          "frame": 1
+        }
+      ],
+      "path": "artwork/green-slime/green-slime.aseprite",
+      "revision": "0:d89ab75f",
+      "tags": [
+        {
+          "direction": "forward",
+          "from": 1,
+          "name": "bounce",
+          "to": 8
+        }
+      ],
+      "width": 32
+    }
+  },
+  {
+    "tool": "export_document",
+    "result": {
+      "files": [
+        "artwork/green-slime/green-slime.gif"
+      ],
+      "revision": "0:d89ab75f"
+    }
+  },
+  {
+    "tool": "export_document",
+    "result": {
+      "files": [
+        "artwork/green-slime/green-slime-sheet.png",
+        "artwork/green-slime/green-slime-sheet.json"
+      ],
+      "revision": "0:d89ab75f"
+    }
+  }
+]

@@ -1,0 +1,52 @@
+name: Aseprite MCP
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  protocol:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.25.x'
+          cache-dependency-path: go.sum
+      - run: go test ./...
+      - run: go build ./cmd/aseprite-mcp
+      - run: go run ./cmd/package
+      - if: runner.os == 'Linux'
+        run: go test -race ./...
+      - uses: actions/upload-artifact@v4
+        with:
+          name: aseprite-mcp-${{ runner.os }}
+          path: |
+            aseprite-mcp
+            aseprite-mcp.exe
+            dist/*.aseprite-extension
+  artwork:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check out the supported Aseprite API baseline
+        uses: actions/checkout@v7
+        with:
+          repository: aseprite/aseprite
+          ref: b3e34acbae812b8a1d814c2e6285343b351c8945
+          path: .deps/aseprite
+          submodules: recursive
+          persist-credentials: false
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.25.x'
+          cache-dependency-path: go.sum
+      - name: Install headless build dependencies
+        run: sudo apt-get update -qq && sudo apt-get install -y ninja-build libpixman-1-dev libfreetype6-dev libharfbuzz-dev zlib1g-dev libpng-dev libx11-dev libxcursor-dev libxi-dev libxrandr-dev libgl1-mesa-dev libfontconfig1-dev
+      - name: Build headless Aseprite
+        run: |
+          cmake -S .deps/aseprite -B .deps/aseprite/build/mcp-test -G Ninja -DLAF_BACKEND=none -DCMAKE_BUILD_TYPE=Release -DENABLE_NEWS=OFF -DENABLE_UPDATER=OFF -DENABLE_CCACHE=OFF -DENABLE_WEBP=OFF -DUSE_SHARED_ZLIB=ON -DUSE_SHARED_LIBPNG=ON -DUSE_SHARED_PIXMAN=ON -DUSE_SHARED_FREETYPE=ON -DUSE_SHARED_HARFBUZZ=ON -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+          cmake --build .deps/aseprite/build/mcp-test --target aseprite -j 2
+      - run: go test -v ./...
+        env:
+          ASEPRITE_PATH: ${{ github.workspace }}/.deps/aseprite/build/mcp-test/bin/aseprite

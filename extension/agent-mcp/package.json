@@ -1,0 +1,10 @@
+{
+  "name": "agent-mcp",
+  "displayName": "Agent MCP Bridge",
+  "description": "Connect a local MCP agent to Aseprite for undoable artwork editing",
+  "version": "0.1.0",
+  "publisher": "Jofdiazdi",
+  "license": "MIT",
+  "categories": ["Scripts"],
+  "contributes": {"scripts": [{"path": "plugin.lua"}]}
+}
