@@ -1,0 +1,109 @@
+{
+  "backend": "Aseprite batch",
+  "document": {
+    "document_id": "doc-a87ce3493e3d4f4a3734678b42cf7a45",
+    "revision": "0:64d49def",
+    "width": 80,
+    "height": 48,
+    "color_mode": "rgba",
+    "modified": false,
+    "path": "artwork/knight-vs-bowman/knight-vs-bowman.aseprite",
+    "layers": [
+      "Background",
+      "Shadows",
+      "Bowman",
+      "Knight",
+      "Arrow",
+      "FX"
+    ],
+    "frames": [
+      {
+        "number": 1,
+        "duration_ms": 160
+      },
+      {
+        "number": 2,
+        "duration_ms": 160
+      },
+      {
+        "number": 3,
+        "duration_ms": 110
+      },
+      {
+        "number": 4,
+        "duration_ms": 260
+      },
+      {
+        "number": 5,
+        "duration_ms": 60
+      },
+      {
+        "number": 6,
+        "duration_ms": 60
+      },
+      {
+        "number": 7,
+        "duration_ms": 120
+      },
+      {
+        "number": 8,
+        "duration_ms": 110
+      },
+      {
+        "number": 9,
+        "duration_ms": 90
+      },
+      {
+        "number": 10,
+        "duration_ms": 160
+      },
+      {
+        "number": 11,
+        "duration_ms": 140
+      },
+      {
+        "number": 12,
+        "duration_ms": 160
+      }
+    ],
+    "tags": [
+      {
+        "name": "duel",
+        "from": 1,
+        "to": 12,
+        "direction": "forward"
+      }
+    ]
+  },
+  "compare_frames": [
+    {
+      "frame": 6,
+      "other_frame": 9,
+      "changed_pixels": 1202,
+      "changed_percent": 31.3,
+      "changed_bounds": {
+        "x": 10,
+        "y": 14,
+        "width": 60,
+        "height": 30
+      }
+    },
+    {
+      "frame": 12,
+      "other_frame": 2,
+      "changed_pixels": 0,
+      "changed_percent": 0,
+      "note": "loop closes on the idle pose"
+    }
+  ],
+  "outputs": [
+    "artwork/knight-vs-bowman/contact-sheet.png",
+    "artwork/knight-vs-bowman/drawing-recipe.json",
+    "artwork/knight-vs-bowman/knight-vs-bowman-preview.gif",
+    "artwork/knight-vs-bowman/knight-vs-bowman-sheet.json",
+    "artwork/knight-vs-bowman/knight-vs-bowman-sheet.png",
+    "artwork/knight-vs-bowman/knight-vs-bowman.aseprite",
+    "artwork/knight-vs-bowman/knight-vs-bowman.gif",
+    "artwork/knight-vs-bowman/onion-skin.png"
+  ]
+}

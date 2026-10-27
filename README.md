@@ -14,6 +14,9 @@ The server is written in Go. A shared Lua dispatcher performs the actual artwork
 |---|---|
 | ![Green slime bounce animation](artwork/green-slime/green-slime-preview.gif) | ![Goblin idle animation](artwork/goblin/goblin-preview.gif) |
 | [Editable sprite](artwork/green-slime/green-slime.aseprite) · [Contact sheet](artwork/green-slime/contact-sheet.png) | [Editable sprite](artwork/goblin/goblin.aseprite) · [Contact sheet](artwork/goblin/contact-sheet.png) |
+| **Campfire in the woods — 64 × 48, 8 frames** | **Knight vs. bowman — 80 × 48, 12 frames** |
+| ![Night campfire animation with flickering flames, rising sparks, and twinkling stars](artwork/campfire-woods/campfire-woods-preview.gif) | ![A bowman fires an arrow that glances off a knight's shield before the knight charges and swings](artwork/knight-vs-bowman/knight-vs-bowman-preview.gif) |
+| [Editable sprite](artwork/campfire-woods/campfire-woods.aseprite) · [Contact sheet](artwork/campfire-woods/contact-sheet.png) | [Editable sprite](artwork/knight-vs-bowman/knight-vs-bowman.aseprite) · [Contact sheet](artwork/knight-vs-bowman/contact-sheet.png) |
 
 These examples were drawn through MCP calls and native Aseprite operations. Each includes its drawing recipe, sprite sheet, animation, and verification record in [`artwork/`](artwork/).
 
@@ -207,7 +210,7 @@ From the repository root, choose a fresh output directory:
 go run ./cmd/example --server ./dist/aseprite-mcp --aseprite /path/to/aseprite --workspace ./dist/my-first-slime
 ```
 
-On Windows, use `--server ./dist/aseprite-mcp.exe`. Inspect `slime.aseprite`, `preview.png`, `slime.gif`, `slime.png`, and `slime.json` in the chosen directory. The checked-in [slime](artwork/green-slime/) and [goblin](artwork/goblin/) are larger examples; their creation records use repository-relative paths for portability.
+On Windows, use `--server ./dist/aseprite-mcp.exe`. Inspect `slime.aseprite`, `preview.png`, `slime.gif`, `slime.png`, and `slime.json` in the chosen directory. The checked-in [slime](artwork/green-slime/), [goblin](artwork/goblin/), [campfire](artwork/campfire-woods/), and [duel](artwork/knight-vs-bowman/) are larger examples; their creation records use repository-relative paths for portability.
 
 ## Tools
 

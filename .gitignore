@@ -2,3 +2,9 @@
 /aseprite-mcp
 /aseprite-mcp.exe
 /.deps/
+
+# Local artwork, never published
+artwork/cyndaquil/
+artwork/cyndaquil-replica/
+artwork/squirtle-water-gun/
+artwork/mcp-test/

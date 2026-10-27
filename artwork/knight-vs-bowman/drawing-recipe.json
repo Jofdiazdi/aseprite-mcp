@@ -1,0 +1,4237 @@
+[
+ {
+  "tool": "apply_edits",
+  "label": "setup",
+  "edits": [
+   {
+    "op": "layer_update",
+    "layer_id": "65b5c4df-f63b-4501-955a-815facfe06a0",
+    "name": "Background"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Shadows",
+    "name": "Shadows"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Bowman",
+    "name": "Bowman"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Knight",
+    "name": "Knight"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Arrow",
+    "name": "Arrow"
+   },
+   {
+    "op": "layer_create",
+    "ref": "FX",
+    "name": "FX"
+   },
+   {
+    "op": "frame_duration",
+    "frame": 1,
+    "duration_ms": 160
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 160
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 110
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 260
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 60
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 60
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 120
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 110
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 90
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 160
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 140
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 160
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "static",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "65b5c4df-f63b-4501-955a-815facfe06a0",
+    "frame": 1,
+    "x": 0,
+    "y": 0,
+    "legend": {
+     "1": {
+      "rgba": [
+       122,
+       170,
+       214,
+       255
+      ]
+     },
+     "2": {
+      "rgba": [
+       160,
+       198,
+       226,
+       255
+      ]
+     },
+     "3": {
+      "rgba": [
+       214,
+       222,
+       214,
+       255
+      ]
+     },
+     "4": {
+      "rgba": [
+       246,
+       214,
+       170,
+       255
+      ]
+     },
+     "C": {
+      "rgba": [
+       255,
+       255,
+       255,
+       255
+      ]
+     },
+     "D": {
+      "rgba": [
+       44,
+       88,
+       50,
+       255
+      ]
+     },
+     "F": {
+      "rgba": [
+       62,
+       118,
+       58,
+       255
+      ]
+     },
+     "G": {
+      "rgba": [
+       86,
+       148,
+       70,
+       255
+      ]
+     },
+     "h": {
+      "rgba": [
+       110,
+       150,
+       150,
+       255
+      ]
+     },
+     "i": {
+      "rgba": [
+       84,
+       124,
+       112,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+     "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+     "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+     "11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111111C111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111CCCCCCC111111111111111111111111111111111111111111111111111111111",
+     "111111111111CCCCCCCCCCCC11111111111111111111111111111111111111111111111111111111",
+     "11111111111CCCCCCCCCCCCCCC111111111111111111111111111111111111111111111111111111",
+     "1111111111CCCCCCCCCCCCCCCCCC1111111111111111111111111111111111111111111111111111",
+     "12111211121CCCCCCCCCCCCCCCCC1211121112111211121112111211121112111211121112111211",
+     "121212121212CCCCC21C1CCCCCCC1212121212121212121212121212121CCCCCCC12121212121212",
+     "22222222222222222222222CCC2222222222222222222222222222222CCCCCCCCCC2222222222222",
+     "2222222222222222222222222222222222222222222222222222222CCCCCCCCCCCCCC22222222222",
+     "2222222222222222222222222222222222222222222222222222222CCCCCCCCCCCCCCC2222222222",
+     "2222222222222222222222222222222222222222222222222222222CCCCCCCCCCCCCC22222222222",
+     "222222222222222222222222222222222222222222222222222222222CCC22222222222222222222",
+     "22222222222222222222222222222222222222222222222222222222222222222222222222222222",
+     "22222222222222222222222222222222222222222222222222222222222222222222222222222222",
+     "22222222222222222222222222222222222222222222222222222222222222222222222222222222",
+     "23222322232223222322232223222322232223222322232223222322232223222322232223222322",
+     "23232323232323232323232323232323232323232323232323232323232323232323232323232323",
+     "33333333333333333333333333333333333333333333333333333333333333333333333333333333",
+     "33333333333333333333333333333333333333333333333333333333333333333333333333333333",
+     "33333333333333333333333333333333333333333333333333333333333333333333333333333333",
+     "33333333333333333333333333333333333333333333333333333333333333333333333333333333",
+     "333hhhhhhhh333333333333333333333333333333333333333333333333333333333333333333hhh",
+     "4hhhhhhhhhhhhhhh43334hhhhhhhh3334333433343334333433343334hhhhhhhhhhhh33hhhhhhhhh",
+     "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh343434343434343434343434hhhhhhhhhhhhhhhhhhhhhhhhh",
+     "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh444444iiiii4444444444hhhhhhhhhhhhhhhhhhhhhhhhhh",
+     "iiiiihhhhhhhhhhhhhhhhhhhhhhhhhhhhh4444iiiiiii4444444hhhhhhhhhhhhhhhhhhhhhhhhhhii",
+     "iiiiiihhhhhhhhhhhhhhhhhhhhhhhhhhhhh4iiiiiiiiiii4444hhhhhhhhhhhhhhhhhhhhhhhhhhiii",
+     "iiiiiiihhhhhhhhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiii44hhhhhhhhhhhhhhhhhhhhhhhhhhiiii",
+     "iiiiiiiihhhhhhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiiiiihhhhhhhhhhhhhhhhhhhhhhhhhiiiiii",
+     "iiiiiiiiiihhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiiiiiiiiihhhhhhhhhhhhhhhhhhhhhhiiiiiii",
+     "iiiiiiiiiiihhhhhhhhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihhhhhhhhhiiiiiiii",
+     "iiiiiiiiiiiihhhhhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihhhhhhiiiiiiiii",
+     "GiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGiiGi",
+     "FFGGGFGGGGFGGGGFGGGGFGGGGFGGGGFGGGGFGGGGFGGGGFFGGGFGGGGFGGGGFGGGGFGGGGFGGGGFGGGG",
+     "GFGGFGGGGGGGGGGGGGGGGGGGGGGGGFGGGGGGGGGGGGGGGGFGGGFGGGGGFGGGGGGFGGGGGFGGGGGGGGGG",
+     "GGGFFFGGGGGGGGGGGGGGGGGGGGGGGFGGGGGGGGGGGGGGGGGGGGFGGGGGFGGGGGGFGGGGGFGGGGGGGGGG",
+     "GFGFGFGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGFGGGGGGGGGGGGGGGGFGGGFGGGGGGGGG",
+     "GFGGGGGGFGGGGGGGGGGGFGGGGGGGGGFGGFGGGGGGGGGGGGGFGFFGGGGGGGGGFGGGGGFGGGFGGGGGGGGG",
+     "GGGGGGGGFGGGGGGGGGGGFGGGGGGGGGFGGFGGGGGGGGGGGGGFGGFGGGGGGGGGFGGGGGGGGGGGGGGGGGGG",
+     "FGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFGFG",
+     "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+     "FDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFDFFD",
+     "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+     "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"
+    ]
+   },
+   {
+    "op": "cel_copy",
+    "layer_id": "65b5c4df-f63b-4501-955a-815facfe06a0",
+    "frame": 1,
+    "to_frame": 2,
+    "end_frame": 12
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "1-4",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 1,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 1,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 1,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 2,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 2,
+    "x": 13,
+    "y": 18,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 2,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "............OOOOOO....",
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 3,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 3,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO............",
+     "OgO.OgggOO..........",
+     ".OgOggVVVgO.........",
+     "..OgggggggO...a.....",
+     ".OrgggkkkkgO..aO....",
+     ".amgggkkkkO..aOlO...",
+     ".mOggkkkOkO..aOlO...",
+     ".OlggKkkkkO..aOlO...",
+     "OllggKkkkkO.a.OlO...",
+     "OlllOOOOOO.Oa.OlO...",
+     ".OlvvgggVVOraOOlOO..",
+     ".OlvvgggvvvUUUUUUUmm",
+     ".OlvvggggggkgkLOlO..",
+     ".OlvvgggggOOaOOOlO..",
+     "..OvvgggggO.a..OlO..",
+     "..OLLLLyLLO.a.OlO...",
+     "..OvvgggggO..aOlO...",
+     "..OgggggggO..aOlO...",
+     "..OgggggggO..aOlO...",
+     "...OvLvLvO...aOlO...",
+     "...OLLOLLO....alO...",
+     "...OLLOLLO....aO....",
+     "...OLLOLLO..........",
+     "..OeeeOeeeO.........",
+     "..OeeeOeeeO.........",
+     "...OOO.OOO.........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 3,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 4,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 4,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "w": {
+      "rgba": [
+       196,
+       140,
+       80,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO............",
+     "OgO.OgggOO..........",
+     ".OgOggVVVgO.........",
+     "..OgggggggO...a.....",
+     ".OrgggkkkkgO.awO....",
+     ".amgggkkkkO..aOlO...",
+     ".mOggkkkOkO.a.OlO...",
+     ".OlggKkkkkOa..OlO...",
+     "OllggKkkkkOa..OlO...",
+     "OlllOOOOOOa...OlO...",
+     ".OlvvgggVraOOOOlOO..",
+     ".OlvvgggvUUUUUUUUUmm",
+     ".OlvvggggkgggkLOlO..",
+     ".OlvvgggggaOOOOOlO..",
+     "..OvvgggggOa...OlO..",
+     "..OLLLLyLLOa..OlO...",
+     "..OvvgggggOa..OlO...",
+     "..OgggggggO.a.OlO...",
+     "..OgggggggO..aOlO...",
+     "...OvLvLvO...aOlO...",
+     "...OLLOLLO...aOlO...",
+     "...OLLOLLO....aO....",
+     "...OLLOLLO..........",
+     "..OeeeOeeeO.........",
+     "..OeeeOeeeO.........",
+     "...OOO.OOO.........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 4,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "5-8",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 5,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 5,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 5,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 5,
+    "x": 34,
+    "y": 32,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "ra........",
+     "UUUUUUUUmm",
+     "r........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 6,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 6,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 6,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 6,
+    "x": 44,
+    "y": 32,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "ra........",
+     "UUUUUUUUmm",
+     "r........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 7,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp...................................ppppppp....",
+     "ppppppppppp............................ppppppppppppppp",
+     "...ppppp...................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 7,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 7,
+    "x": 50,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "..........OrrrrrrO...",
+     "......OOOOrrrRrrrrO..",
+     ".....OSSSSSSSSOrrrrO.",
+     ".....OSsssssxxOOOrrRO",
+     ".....OSsssssxxO.OORO.",
+     ".....OOOOOOsxxOOSOO..",
+     ".....OSsssssxxOOSsO..",
+     ".....OSXXsssxxOOSsO..",
+     ".....OSsssssxxOOSsO..",
+     ".OOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSxxxSsO..",
+     "ObBBybbbSSSSSxxxSsO..",
+     "ObBBybbbbbbbbxxxSsO..",
+     "ObBBybbbbbyybxxxSsO..",
+     "ObyyyyyybbyybbsxxxO..",
+     "ObBBybbbyyyyyyYxxxYO.",
+     "ObBBybbbbbyybbsxxxO..",
+     "ObbBybbbbbyybbsxxxO..",
+     "ObbbybbbbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLyO...",
+     "..ObybssbbbbbbssO....",
+     "...ObOOsxxOOsxxO.....",
+     "....O.OsxxOOsxxO.....",
+     "......OsxxOOsxxO.....",
+     "......OsxxOOsxxO.....",
+     ".....OOsxxOOsxxO.....",
+     "....OxXXXXOxXXXXO....",
+     "....OXXXXXOXXXXXO....",
+     ".....OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 7,
+    "x": 45,
+    "y": 31,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "ra.....",
+     "UUUU...",
+     "....UUU"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "f0ef6089-bf59-4cae-aa2b-332158855605",
+    "frame": 7,
+    "x": 47,
+    "y": 30,
+    "legend": {
+     "Z": {
+      "rgba": [
+       255,
+       240,
+       150,
+       255
+      ]
+     },
+     "z": {
+      "rgba": [
+       255,
+       255,
+       255,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...Z",
+     "..Z.",
+     ".Z..",
+     "Z.z.",
+     ".Z..",
+     "..Z.",
+     "...Z"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 8,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp............................ppppppp....",
+     "ppppppppppp.....................ppppppppppppppp",
+     "...ppppp............................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 8,
+    "x": 13,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 8,
+    "x": 42,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO.......",
+     ".......OOOOrrrRrrrrO....O.",
+     "......OSSSSSSSSOrrrrO..OSO",
+     "......OSsssssxxOOOrrROOSsO",
+     "......OSsssssxxO..OROOSsO.",
+     "......OOOOOOsxxO...OOSsO..",
+     "......OSsssssxxO...OSsO...",
+     "......OSXXsssxxO..OSsO....",
+     "......OSsssssxxO.OSsO.....",
+     ".OOOOOOSsssssxxOOSsO......",
+     "OYYYYYYYYSSSSSYxxxO.......",
+     "ObBBybbbSSSSSSLxxxO.......",
+     "ObBBybbbsbbbbbLxxxO.......",
+     "ObBBybbbsbbyybLLLYO.......",
+     "ObyyyyyysbbyybbssOYO......",
+     "ObBBybbbsyyyyyyssOO.......",
+     "ObBBybbbsbbyybbssO........",
+     "ObbBybbbsbbyybbssO........",
+     "ObbbybbbsbbyybbssO........",
+     ".ObbybbLLLLLLLLLLO........",
+     "..ObybOssbbbbbbssO........",
+     "...ObO.OsxxOOsxxO.........",
+     "....O..OsxxOOsxxO.........",
+     ".......OsxxOOsxxO.........",
+     ".......OsxxOOsxxO.........",
+     "......OOsxxOOsxxO.........",
+     ".....OxXXXXOxXXXXO........",
+     ".....OXXXXXOXXXXXO........",
+     "......OOOOO.OOOOO........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 8,
+    "x": 38,
+    "y": 35,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "r.....",
+     "U.....",
+     ".U....",
+     "..UU..",
+     "....U.",
+     ".....U"
+    ]
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "9-12",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 9,
+    "x": 11,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp.........................ppppppp....",
+     "ppppppppppp..................ppppppppppppppp",
+     "...ppppp.........................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 9,
+    "x": 10,
+    "y": 15,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkOO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "..OeeeOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 9,
+    "x": 34,
+    "y": 14,
+    "legend": {
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".............OrrrrrrO...",
+     ".........OOOOrrrRrrrrO..",
+     "........OSSSSSSSSOrrrrO.",
+     "........OSsssssxxOOOrrRO",
+     "........OSsssssxxO..ORO.",
+     "........OOOOOOsxxO...O..",
+     "........OSsssssxxO......",
+     "........OSXXsssxxO......",
+     "........OSsssssxxO......",
+     "........OSsssssxxOO.....",
+     "........OSSSSSSSxxxO....",
+     "........OSSSYSxxxxxO....",
+     "OOOOOOOOOssbYLxxxxxO....",
+     "sSSSSSSSSSSSYLxxxxxO....",
+     "ssssssssssssYyxxxxsO....",
+     "OOOOOOOOOssyYyyyyssO....",
+     "........OssbbyybbssO....",
+     "........OssbbyybbssO....",
+     "........OssbbyybbssO....",
+     "........OLLLLLLLLLLO....",
+     "........OssbbbbbbssO....",
+     ".........OsxxOOsxxO.....",
+     ".........OsxxOOsxxO.....",
+     ".........OsxxOOsxxO.....",
+     ".........OsxxOOsxxO.....",
+     "........OOsxxOOsxxO.....",
+     ".......OxXXXXOxXXXXO....",
+     ".......OXXXXXOXXXXXO....",
+     "........OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 9,
+    "x": 43,
+    "y": 40,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "ra.......",
+     ".UUUUUUUm"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "f0ef6089-bf59-4cae-aa2b-332158855605",
+    "frame": 9,
+    "x": 28,
+    "y": 24,
+    "legend": {
+     "q": {
+      "rgba": [
+       255,
+       255,
+       255,
+       140
+      ]
+     },
+     "z": {
+      "rgba": [
+       255,
+       255,
+       255,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".........zqqqqqqq",
+     ".....qqzzzzzqqqqz",
+     "....qzzzzqqq.....",
+     "...qz.zqq........",
+     "..qzzzq..........",
+     "..qzzq...........",
+     ".qzzq............",
+     ".qzzq............",
+     "qzzq.............",
+     "qzzq.............",
+     "qzzq.............",
+     "qzzq.............",
+     ".zzq.............",
+     ".zzzq............",
+     "..qzq............",
+     "..qqzq...........",
+     "...qqzq..........",
+     "....q.zq.........",
+     ".....qq.........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 10,
+    "x": 10,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..........................ppppppp....",
+     "ppppppppppp...................ppppppppppppppp",
+     "...ppppp..........................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 10,
+    "x": 9,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkOO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 10,
+    "x": 35,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "............OrrrrrrO...",
+     "........OOOOrrrRrrrrO..",
+     ".......OSSSSSSSSOrrrrO.",
+     ".......OSsssssxxOOOrrRO",
+     ".......OSsssssxxO..ORO.",
+     ".......OOOOOOsxxO...O..",
+     ".......OSsssssxxO......",
+     ".......OSXXsssxxO......",
+     ".......OSsssssxxO......",
+     ".......OSsssssxxOO.....",
+     ".......OSSSSSSSxxxO....",
+     ".......OSSSSSSSxxxO....",
+     "..OOOOOOssbbbbbxxxO....",
+     ".OYYYYYYYYbbyybxxxO....",
+     ".ObBBybbbsbxxxxbssO....",
+     ".ObBBybbbsyxxxxyssO....",
+     ".ObBBybbbYLxxxxbssO....",
+     ".ObyyyyyySLLLybbssO....",
+     ".ObBBybbbsbbYybbssO....",
+     ".ObBBybbbLLLLLLLLLO....",
+     ".ObbBybbbsbbbbbbssO....",
+     ".ObbbybbbsxxOOsxxO.....",
+     "..ObbybbOsxxOOsxxO.....",
+     "...ObybOOsxxOOsxxO.....",
+     "..OSsbO.OsxxOOsxxO.....",
+     ".OSsOO.OOsxxOOsxxO.....",
+     "OSsO..OxXXXXOxXXXXO....",
+     ".OO...OXXXXXOXXXXXO....",
+     ".......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 10,
+    "x": 43,
+    "y": 40,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "ra.......",
+     ".UUUUUUUm"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 11,
+    "x": 12,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..............................ppppppp....",
+     "ppppppppppp.......................ppppppppppppppp",
+     "...ppppp..............................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 11,
+    "x": 11,
+    "y": 17,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "...OLLOLLO........",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 11,
+    "x": 42,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "7ca7cbfc-c71f-44f0-b46a-47a7ee87ede3",
+    "frame": 11,
+    "x": 43,
+    "y": 40,
+    "legend": {
+     "U": {
+      "rgba": [
+       92,
+       68,
+       48,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "ra.......",
+     ".UUUUUUUm"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "d77e7f4a-9898-456c-86b9-ca7fa1571dcc",
+    "frame": 12,
+    "x": 14,
+    "y": 41,
+    "legend": {
+     "p": {
+      "rgba": [
+       0,
+       0,
+       0,
+       60
+      ]
+     }
+    },
+    "rows": [
+     "...ppppp..................................ppppppp....",
+     "ppppppppppp...........................ppppppppppppppp",
+     "...ppppp..................................ppppppp...."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2942cd8f-b180-46a6-b5ea-adb9045fb944",
+    "frame": 12,
+    "x": 13,
+    "y": 18,
+    "legend": {
+     "K": {
+      "rgba": [
+       200,
+       140,
+       104,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       110,
+       180,
+       96,
+       255
+      ]
+     },
+     "a": {
+      "rgba": [
+       230,
+       230,
+       220,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       60,
+       40,
+       30,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       64,
+       140,
+       72,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       240,
+       190,
+       150,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       150,
+       96,
+       54,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       160,
+       160,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       40,
+       96,
+       56,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".O...OOO..........",
+     "OgO.OgggOO........",
+     ".OgOggVVVgO.......",
+     "..OgggggggO...a...",
+     ".OrgggkkkkgO..aO..",
+     ".amgggkkkkO...alO.",
+     ".mOggkkkOkO...alO.",
+     ".OlggKkkkkO..aOlO.",
+     "OllggKkkkkO..aOlO.",
+     "OlllOOOOOO...aOlO.",
+     ".OlvvgggVVOOOaOlO.",
+     ".OlvvggggggggaLOlO",
+     ".OlvvgggvvgggaLOlO",
+     ".OlvvgggvvOOOaOOlO",
+     "..OvvgggvvO..a.OlO",
+     "..OLLLLyLkO..aOlO.",
+     "..OvvgggggO..aOlO.",
+     "..OgggggggO...alO.",
+     "..OgggggggO...alO.",
+     "...OvLvLvO....alO.",
+     "...OLLOLLO....alO.",
+     "...OLLOLLO....aO..",
+     "..OeeeOeeeO.......",
+     "..OeeeOeeeO.......",
+     "...OOO.OOO........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "c7d96137-41a4-4bde-bd21-1582bcec42ad",
+    "frame": 12,
+    "x": 48,
+    "y": 14,
+    "legend": {
+     "B": {
+      "rgba": [
+       86,
+       130,
+       214,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       104,
+       64,
+       38,
+       255
+      ]
+     },
+     "O": {
+      "rgba": [
+       28,
+       24,
+       36,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       140,
+       30,
+       40,
+       255
+      ]
+     },
+     "S": {
+      "rgba": [
+       236,
+       240,
+       246,
+       255
+      ]
+     },
+     "X": {
+      "rgba": [
+       78,
+       84,
+       104,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       180,
+       132,
+       40,
+       255
+      ]
+     },
+     "b": {
+      "rgba": [
+       46,
+       84,
+       170,
+       255
+      ]
+     },
+     "r": {
+      "rgba": [
+       200,
+       48,
+       54,
+       255
+      ]
+     },
+     "s": {
+      "rgba": [
+       186,
+       194,
+       208,
+       255
+      ]
+     },
+     "x": {
+      "rgba": [
+       120,
+       128,
+       148,
+       255
+      ]
+     },
+     "y": {
+      "rgba": [
+       238,
+       196,
+       72,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "............OOOOOO....",
+     "...........OrrrrrrO...",
+     ".......OOOOrrrRrrrrO..",
+     "......OSSSSSSSSOrrrrO.",
+     "......OSsssssxxOOOrrRO",
+     "......OSsssssxxO.OORO.",
+     "......OOOOOOsxxOOSOO..",
+     "......OSsssssxxOOSsO..",
+     "......OSXXsssxxOOSsO..",
+     "......OSsssssxxOOSsO..",
+     ".OOOOOOSsssssxxOOSsO..",
+     "OYYYYYYYYSSSSSxxxSsO..",
+     "ObBBybbbSSSSSSxxxSsO..",
+     "ObBBybbbsbbbbbxxxSsO..",
+     "ObBBybbbsbbyybxxxSsO..",
+     "ObyyyyyysbbyybbsxxxO..",
+     "ObBBybbbsyyyyyyYxxxYO.",
+     "ObBBybbbsbbyybbsxxxO..",
+     "ObbBybbbsbbyybbsxxxO..",
+     "ObbbybbbsbbyybbssLLO..",
+     ".ObbybbLLLLLLLLLLyO...",
+     "..ObybOssbbbbbbssO....",
+     "...ObO.OsxxOOsxxO.....",
+     "....O..OsxxOOsxxO.....",
+     ".......OsxxOOsxxO.....",
+     "......OOsxxOOsxxO.....",
+     ".....OxXXXXOxXXXXO....",
+     ".....OXXXXXOXXXXXO....",
+     "......OOOOO.OOOOO....."
+    ]
+   }
+  ]
+ }
+]

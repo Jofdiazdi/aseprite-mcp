@@ -1,0 +1,198 @@
+{
+  "frames": [
+    {
+      "duration": 100,
+      "filename": "frame-0001",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0002",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 64,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0003",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 128,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0004",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 192,
+        "y": 0
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0005",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 48
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0006",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 64,
+        "y": 48
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0007",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 128,
+        "y": 48
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    },
+    {
+      "duration": 100,
+      "filename": "frame-0008",
+      "frame": {
+        "h": 48,
+        "w": 64,
+        "x": 192,
+        "y": 48
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 48,
+        "w": 64
+      },
+      "spriteSourceSize": {
+        "h": 48,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "trimmed": false
+    }
+  ],
+  "meta": {
+    "app": "aseprite-mcp",
+    "format": "RGBA8888",
+    "frameTags": [
+      {
+        "direction": "forward",
+        "from": 0,
+        "name": "campfire",
+        "to": 7
+      }
+    ],
+    "image": "campfire-woods-sheet.png",
+    "scale": "1",
+    "size": {
+      "h": 96,
+      "w": 256
+    }
+  }
+}

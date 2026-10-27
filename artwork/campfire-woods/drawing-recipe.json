@@ -1,0 +1,2320 @@
+[
+ {
+  "tool": "apply_edits",
+  "label": "setup",
+  "edits": [
+   {
+    "op": "layer_update",
+    "layer_id": "6498dc14-80d8-420a-b7c8-3680c74946ee",
+    "name": "Sky"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Stars",
+    "name": "Stars"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Trees",
+    "name": "Trees"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Ground",
+    "name": "Ground"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Fire pit",
+    "name": "Fire pit"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Glow",
+    "name": "Glow"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Flames",
+    "name": "Flames"
+   },
+   {
+    "op": "layer_create",
+    "ref": "Sparks",
+    "name": "Sparks"
+   },
+   {
+    "op": "frame_duration",
+    "frame": 1,
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   },
+   {
+    "op": "frame_create",
+    "duration_ms": 100
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "static",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "6498dc14-80d8-420a-b7c8-3680c74946ee",
+    "frame": 1,
+    "x": 0,
+    "y": 0,
+    "legend": {
+     "1": {
+      "rgba": [
+       14,
+       16,
+       38,
+       255
+      ]
+     },
+     "2": {
+      "rgba": [
+       20,
+       24,
+       54,
+       255
+      ]
+     },
+     "3": {
+      "rgba": [
+       30,
+       34,
+       72,
+       255
+      ]
+     },
+     "4": {
+      "rgba": [
+       44,
+       46,
+       90,
+       255
+      ]
+     },
+     "M": {
+      "rgba": [
+       196,
+       190,
+       160,
+       255
+      ]
+     },
+     "m": {
+      "rgba": [
+       238,
+       232,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "1111111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111111111111111111111111111111111111111111111111111",
+     "1111111111111111111111111111111111111111111111111mmm111111111111",
+     "111111111111111111111111111111111111111111111111mmmmm11111111111",
+     "12111211121112111211121112111211121112111211121mmMmmMm1112111211",
+     "12121212121212121212121212121212121212121212121mmmmmmm1212121212",
+     "22222222222222222222222222222222222222222222222mmmmMmm2222222222",
+     "222222222222222222222222222222222222222222222222mmmmm22222222222",
+     "2222222222222222222222222222222222222222222222222mmm222222222222",
+     "2222222222222222222222222222222222222222222222222222222222222222",
+     "2222222222222222222222222222222222222222222222222222222222222222",
+     "2222222222222222222222222222222222222222222222222222222222222222",
+     "2222222222222222222222222222222222222222222222222222222222222222",
+     "2322232223222322232223222322232223222322232223222322232223222322",
+     "2323232323232323232323232323232323232323232323232323232323232323",
+     "3333333333333333333333333333333333333333333333333333333333333333",
+     "3333333333333333333333333333333333333333333333333333333333333333",
+     "3333333333333333333333333333333333333333333333333333333333333333",
+     "3333333333333333333333333333333333333333333333333333333333333333",
+     "3333333333333333333333333333333333333333333333333333333333333333",
+     "3333333333333333333333333333333333333333333333333333333333333333",
+     "3433343334333433343334333433343334333433343334333433343334333433",
+     "3434343434343434343434343434343434343434343434343434343434343434",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444",
+     "4444444444444444444444444444444444444444444444444444444444444444"
+    ]
+   },
+   {
+    "op": "cel_copy",
+    "layer_id": "6498dc14-80d8-420a-b7c8-3680c74946ee",
+    "frame": 1,
+    "to_frame": 2,
+    "end_frame": 8
+   },
+   {
+    "op": "rows",
+    "layer_id": "89708ae2-bb29-4f69-97af-76c02f5d8d53",
+    "frame": 1,
+    "x": 0,
+    "y": 2,
+    "legend": {
+     "f": {
+      "rgba": [
+       38,
+       60,
+       92,
+       255
+      ]
+     },
+     "g": {
+      "rgba": [
+       22,
+       42,
+       56,
+       255
+      ]
+     },
+     "n": {
+      "rgba": [
+       10,
+       18,
+       24,
+       255
+      ]
+     },
+     "t": {
+      "rgba": [
+       30,
+       22,
+       22,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "tt..............................................................",
+     "tt..............................................................",
+     "tt..............................................................",
+     "tt..............................................................",
+     "tt............................................................tt",
+     "tt............................................................tt",
+     "tt............................................................tt",
+     "tt...........................................................gtt",
+     "ttn.........................................................ggtt",
+     "ttng........................................................ggtt",
+     "ttgg........................................................ggtt",
+     "ttgg........................................................ggtt",
+     "ttggg..............................................g.......gggtt",
+     "ttngg.............................................gg.......gggtt",
+     "ttnggg.......g....................................gg.......gggtt",
+     "ttnn........gg....................................ggg......gggtt",
+     "ttnng.......ggg..ff...............................ggg....ffgggtt",
+     "ttnnn.......ggg..ff.............ff...............ggggg...fggggtt",
+     "ttnnng.....gggg..fff..g.........ff.........ff.....gggf...fgggntt",
+     "ttnnnng.ff..ggg..fff.gg.........fff.......ggf....ggggf...ggggntt",
+     "ttnnnng.ff.gggg.ffff.gggf.......fff....ff.ggff...gggggf.fgggnntt",
+     "ttngggggfffgggggfffffgggf......ffff....ff.gggf..ggggggf.fffgnntt",
+     "ttnngg..ffggggggfffffgggff..ff.fffff...fffgggf.fggggggg.ffggnntt",
+     "ttnngg.fffgggggggfffggggff..ff.fffff...ffggggfffgggggggffgggggtt",
+     "ttnnnggffffggggfffffgggggf..fffffff...fffgggggfffgggggfffgggggtt",
+     "ttnnngggffggggggffffgggggff.ffffffff..fffggggg.fgggggggfgggggntt",
+     "ttnnnnggffgggggggfffggggfffffffffffff.fffggggffggggggggfgggggntt",
+     "ttnnnnngggggggggg.fggggggf.fffffffffffffggggggfgggggggggggggnntt",
+     "ttnnnnngggggggggggfgggggggffffffffffffffggggggggggggggggggggnntt",
+     "ttnnnnnngggggggggggggggggggggggggggggggggggggggggggggggggggnnntt",
+     "ttnnnnnnggggggggggggggggggggggggggggggggggggggggggggggggggnnnntt",
+     "ttnnnnnnn...............f.fffffff.......f....fffffff......nnnntt",
+     "ttnnnnnnnn...............fffffffff..........fffffffff....nnnnntt",
+     "tt...........................f..................f........nnnnntt",
+     "........................................................nnnnnnnn"
+    ]
+   },
+   {
+    "op": "cel_copy",
+    "layer_id": "89708ae2-bb29-4f69-97af-76c02f5d8d53",
+    "frame": 1,
+    "to_frame": 2,
+    "end_frame": 8
+   },
+   {
+    "op": "rows",
+    "layer_id": "9989c2a5-78d4-4e4b-8b31-646b0cc1146e",
+    "frame": 1,
+    "x": 0,
+    "y": 33,
+    "legend": {
+     "G": {
+      "rgba": [
+       22,
+       36,
+       32,
+       255
+      ]
+     },
+     "H": {
+      "rgba": [
+       32,
+       50,
+       40,
+       255
+      ]
+     },
+     "K": {
+      "rgba": [
+       118,
+       112,
+       118,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       140,
+       90,
+       52,
+       255
+      ]
+     },
+     "d": {
+      "rgba": [
+       50,
+       38,
+       34,
+       255
+      ]
+     },
+     "e": {
+      "rgba": [
+       74,
+       54,
+       42,
+       255
+      ]
+     },
+     "j": {
+      "rgba": [
+       36,
+       34,
+       46,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       66,
+       64,
+       76,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       96,
+       60,
+       38,
+       255
+      ]
+     },
+     "w": {
+      "rgba": [
+       56,
+       34,
+       26,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "HGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHHGHH",
+     "GGGGGGGGGGGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+     "GGGGGGHGGGGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGHGGGGGGGGGGGGGGGGGGGGG",
+     "GGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGHGGGGGGGGGG",
+     "GGGGGGGGGGGGGGGGGHGGGGGGdddddddddddddddddGGGGGGGGGGGGGGGGGGGGGGG",
+     "GGGGGHGGGeLLLLLLLLLLdddddeeeeeeeeeeeeeeedddddGGGGGHKKKkkGGGGGGGG",
+     "GGGGGGGGewelllllllllddeeeeeeeeeeeeeeeeeeeeeddddGGGKKKKKkkGGGGGGG",
+     "HGGGGGGGGewwwwwwwwwweeeeeeeeeeeeeeeeeeeeeeeeeddddkkKKKkkkkGGGGGG",
+     "HGGGGGGGGGGGGGGGdddeeeeeeeeeeeeeeeeeeeeeeeeeeedddGkkkkkkkGGGGGGG",
+     "GGHGGGGGGGGGGGGGddddeeeeeeeeeeeeeeeeeeeeeeeeeddddjjjjjjjjjGGGGGG",
+     "GGHGGGGGGGGGGGHGddddddeeeeeeeeeeeeeeeeeeeeeddddddGGGGGGGGGGHGGGH",
+     "GGGGGGGGGGGGGGHGGGdddddddeeeeeeeeeeeeeeedddddddGGGGGGGGGGGGHGGGG",
+     "GGGGGHGGGGGGGGGGGGGGdddddddddddddddddddddddddGGGGGGGGGGGGHGGGGGG",
+     "GGGGGHGGGGGGGGGGGGGGGGGGdddddddddddddddddGGGGGGGGGGGGGGGGHGGGGGG",
+     "GGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+    ]
+   },
+   {
+    "op": "cel_copy",
+    "layer_id": "9989c2a5-78d4-4e4b-8b31-646b0cc1146e",
+    "frame": 1,
+    "to_frame": 2,
+    "end_frame": 8
+   },
+   {
+    "op": "rows",
+    "layer_id": "ed1bb7be-6819-4cc2-bcc8-727c2f20f6b1",
+    "frame": 1,
+    "x": 21,
+    "y": 37,
+    "legend": {
+     "K": {
+      "rgba": [
+       118,
+       112,
+       118,
+       255
+      ]
+     },
+     "L": {
+      "rgba": [
+       140,
+       90,
+       52,
+       255
+      ]
+     },
+     "c": {
+      "rgba": [
+       150,
+       52,
+       30,
+       255
+      ]
+     },
+     "k": {
+      "rgba": [
+       66,
+       64,
+       76,
+       255
+      ]
+     },
+     "l": {
+      "rgba": [
+       96,
+       60,
+       38,
+       255
+      ]
+     },
+     "w": {
+      "rgba": [
+       56,
+       34,
+       26,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......ll.......LL.......",
+     "......wwll...LLll.......",
+     "........wwllLll.........",
+     "...Kk...LLwwlll....Kk...",
+     "...kk.LLcccccccll..kk...",
+     "....LLllcccccccwwll.....",
+     "kKkkkKKkkKkkkKKkkKkkkKKk",
+     "kkkkkkkkkkkkkkkkkkkkkkkk"
+    ]
+   },
+   {
+    "op": "cel_copy",
+    "layer_id": "ed1bb7be-6819-4cc2-bcc8-727c2f20f6b1",
+    "frame": 1,
+    "to_frame": 2,
+    "end_frame": 8
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "1-4",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 1,
+    "x": 8,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "..................*................................",
+     ".........+.........................................",
+     "..................................................+",
+     "............................+......................",
+     "...............+...................................",
+     "..............+*+..................................",
+     "...............+...................................",
+     ".........................+.........................",
+     "...+...............................................",
+     ".................................+.................",
+     "...................................................",
+     ".....................*.............................",
+     "...................................................",
+     "...................................................",
+     "+..................................................",
+     "....................................+..............",
+     "...............................................*...",
+     "...................................................",
+     "......+............................................"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 1,
+    "x": 7,
+    "y": 29,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     "...................qqqqqqqqqqqqq...................",
+     ".............qqqqqqqqqqqqqqqqqqqqqqqqq.............",
+     ".........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.........",
+     "......qqqqqqqqqqqqqqqQQQQQQQQQqqqqqqqqqqqqqqq......",
+     "....qqqqqqqqqqqqQQQQQQQQQQQQQQQQQQQqqqqqqqqqqqq....",
+     "...qqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqq...",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqqQQQQQQQQQQXXXXXXXXXXXQQQQQQQQQQqqqqqqqqq.",
+     "qqqqqqqqqQQQQQQQQQXXXXXXXXXXXXXXXQQQQQQQQQqqqqqqqqq",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     "qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq",
+     ".qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq.",
+     "..qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq..",
+     "...qqqqqqqqqqQQQQQQQXXXXXXXXXXXQQQQQQQqqqqqqqqqq...",
+     "....qqqqqqqqqqqqQQQQQQQQQQQQQQQQQQQqqqqqqqqqqqq....",
+     "......qqqqqqqqqqqqqqqQQQQQQQQQqqqqqqqqqqqqqqq......",
+     ".........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 1,
+    "x": 26,
+    "y": 27,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".....Y.......",
+     ".....AR......",
+     ".....AA......",
+     ".....AYR.....",
+     ".....AZARR...",
+     ".....AYYRA...",
+     "..RA.AYYAYR..",
+     "..RYRAYYAYA..",
+     "..AZRAZYAYYR.",
+     ".RAZAYZZAYZA.",
+     ".AYYYYZZYYZYR",
+     "RYZYYYZZZYZYA",
+     "AYZYYZZZZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 1,
+    "x": 29,
+    "y": 9,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     "......R..",
+     ".........",
+     "...VVVV..",
+     "...VVVV..",
+     "....VVV..",
+     ".....A...",
+     ".........",
+     ".........",
+     "......vv.",
+     "...A..vvv",
+     ".......v.",
+     ".........",
+     ".........",
+     ".........",
+     "..Y......",
+     "...vvv...",
+     ".........",
+     ".........",
+     ".........",
+     "Y........"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 2,
+    "x": 3,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".......................+...................................",
+     ".+............+............................................",
+     "+*+....................................................+...",
+     ".+.........................................................",
+     "...........................................................",
+     "....................+......................................",
+     "...........................................................",
+     "..............................+............................",
+     "........*..................................................",
+     "......................................+....................",
+     "...........................................................",
+     "..........................+................................",
+     "..........................................................*",
+     "...........................................................",
+     ".....*.....................................................",
+     ".........................................+.................",
+     "....................................................+......"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 2,
+    "x": 6,
+    "y": 29,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     "..................qqqqqqqqqqqqqqqqq..................",
+     ".............qqqqqqqqqqqqqqqqqqqqqqqqqqq.............",
+     ".........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.........",
+     ".......qqqqqqqqqqqqqqQQQQQQQQQQQqqqqqqqqqqqqqq.......",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     "...qqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqq...",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqqQQQQQQQQQQQXXXXXXXXXXXQQQQQQQQQQQqqqqqqqqq.",
+     ".qqqqqqqqQQQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQQQqqqqqqqq.",
+     "qqqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqqq",
+     "qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq",
+     "qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq",
+     ".qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq.",
+     ".qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq.",
+     "..qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq..",
+     "...qqqqqqqqqqQQQQQQQQXXXXXXXXXXXQQQQQQQQqqqqqqqqqq...",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     ".......qqqqqqqqqqqqqqQQQQQQQQQQQqqqqqqqqqqqqqq.......",
+     ".........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 2,
+    "x": 26,
+    "y": 28,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "....RR.......",
+     "....RA.......",
+     "....RYR......",
+     ".Y..RYA......",
+     ".RA.RYYR.....",
+     ".RYRRYYA.AR..",
+     "..YARYZARYR..",
+     "..YYRYZYAZR..",
+     ".RYYAYZYAZAR.",
+     ".AYYAZZYYYYA.",
+     "RYZYYYZZZYZYR",
+     "AYZYYZZZZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 2,
+    "x": 29,
+    "y": 6,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     ".......R.",
+     ".........",
+     ".........",
+     "....VVVV.",
+     "....VVVV.",
+     "...A.VV..",
+     ".........",
+     ".........",
+     ".........",
+     ".....vvvv",
+     ".....vvvv",
+     ".........",
+     ".........",
+     ".........",
+     "Y........",
+     ".....vv..",
+     ".....vv..",
+     ".........",
+     ".........",
+     "..Y......"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 3,
+    "x": 4,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......................+...................................",
+     "..........................................................",
+     "+.....................................................+...",
+     "................................*.........................",
+     "..........................................................",
+     "...................+......................................",
+     "..........................................................",
+     ".............................*............................",
+     ".......+..................................................",
+     ".....................................*....................",
+     "..........................................................",
+     ".........................+................................",
+     ".........................................................+",
+     "..........................................................",
+     "....+.....................................................",
+     "..........................................................",
+     "...................................................+......",
+     "..........................................................",
+     "..........*..............................................."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 3,
+    "x": 8,
+    "y": 30,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     "...............qqqqqqqqqqqqqqqqqqq...............",
+     "..........qqqqqqqqqqqqqqqqqqqqqqqqqqqqq..........",
+     ".......qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.......",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     "...qqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqq...",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqqQQQQQQQQQQXXXXXXXXXQQQQQQQQQQqqqqqqqqq.",
+     ".qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq.",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     ".qqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqq.",
+     ".qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq.",
+     "..qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq..",
+     "...qqqqqqqqqqQQQQQQQXXXXXXXXXQQQQQQQqqqqqqqqqq...",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     ".......qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.......",
+     "..........qqqqqqqqqqqqqqqqqqqqqqqqqqqqq.........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 3,
+    "x": 26,
+    "y": 30,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".....A.......",
+     "....RY.......",
+     "....RYR.R....",
+     ".A..AYR.ARRR.",
+     ".YR.AZARRAYR.",
+     ".AYRAYYARYY..",
+     ".AZAAYZAAYYR.",
+     ".AZYAZZYYYYA.",
+     ".AZYAZZYZYZAR",
+     "AYZYYZZZZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 3,
+    "x": 28,
+    "y": 6,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     "......VVVV.",
+     "......VVVVV",
+     "...R..VVVV.",
+     ".......VV..",
+     "...........",
+     "...........",
+     ".......A...",
+     ".....vvvv..",
+     "......vvv..",
+     "...........",
+     "...........",
+     "A..........",
+     "...........",
+     ".......vvv.",
+     ".......vvv.",
+     "...........",
+     "....Y......",
+     "...........",
+     "...........",
+     "...........",
+     "...........",
+     ".........Y."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 4,
+    "x": 4,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......................*...................................",
+     ".............*............................................",
+     "+.........................................................",
+     "................................+.........................",
+     "..........................................................",
+     "...................*......................................",
+     "..........................................................",
+     ".............................+............................",
+     ".......+..................................................",
+     ".....................................+....................",
+     "..........................................................",
+     ".........................+................................",
+     ".........................................................+",
+     "..........................................................",
+     "....+.....................................................",
+     "........................................*.................",
+     "...................................................+......",
+     "..........................................................",
+     "..........+..............................................."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 4,
+    "x": 8,
+    "y": 30,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     "...............qqqqqqqqqqqqqqqqqqq...............",
+     "..........qqqqqqqqqqqqqqqqqqqqqqqqqqqqq..........",
+     ".......qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.......",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     "...qqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqq...",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqqQQQQQQQQQQXXXXXXXXXQQQQQQQQQQqqqqqqqqq.",
+     ".qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq.",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     ".qqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqq.",
+     ".qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq.",
+     "..qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq..",
+     "...qqqqqqqqqqQQQQQQQXXXXXXXXXQQQQQQQqqqqqqqqqq...",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     ".......qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.......",
+     "..........qqqqqqqqqqqqqqqqqqqqqqqqqqqqq.........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 4,
+    "x": 26,
+    "y": 29,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......R......",
+     ".....RA......",
+     ".....AA....R.",
+     "....RYA...RY.",
+     "....AYA...AY.",
+     ".R..AZYY.RYA.",
+     "RYR.AZYAYAZA.",
+     "RYARAZZAYYZA.",
+     "RYYAAZZYYYZA.",
+     "RYZYAZZYYYZYR",
+     "AYZYYZZZZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 4,
+    "x": 28,
+    "y": 5,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     "...R.......",
+     "...........",
+     "...........",
+     "...........",
+     ".......R...",
+     "......VV...",
+     ".....VVVV..",
+     ".....VVVV..",
+     "...........",
+     "A..........",
+     "...........",
+     "...........",
+     ".......vvvv",
+     "........vv.",
+     "....Y......",
+     "...........",
+     "...........",
+     "...........",
+     "......vvv..",
+     ".......Y..."
+    ]
+   }
+  ]
+ },
+ {
+  "tool": "apply_edits",
+  "label": "5-8",
+  "edits": [
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 5,
+    "x": 4,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......................+...................................",
+     ".............+............................................",
+     "*.....................................................*...",
+     "................................+.........................",
+     "..........................................................",
+     "...................+......................................",
+     "..........................................................",
+     ".............................+............................",
+     ".......+..................................................",
+     ".....................................+....................",
+     "..........................................................",
+     "..........................................................",
+     ".........................................................*",
+     "..........................................................",
+     "....+.....................................................",
+     "........................................+.................",
+     "..........................................................",
+     "..........................................................",
+     "..........+..............................................."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 5,
+    "x": 8,
+    "y": 30,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     "................qqqqqqqqqqqqqqqqq................",
+     "...........qqqqqqqqqqqqqqqqqqqqqqqqqqq...........",
+     "........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq........",
+     "......qqqqqqqqqqqQQQQQQQQQQQQQQQqqqqqqqqqqq......",
+     "....qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq....",
+     "...qqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqq...",
+     "..qqqqqqqqQQQQQQQQQQQXXXXXXXQQQQQQQQQQQqqqqqqqq..",
+     ".qqqqqqqqQQQQQQQQQXXXXXXXXXXXXXQQQQQQQQQqqqqqqqq.",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     ".qqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqq.",
+     "..qqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqq..",
+     "...qqqqqqqqQQQQQQQXXXXXXXXXXXXXQQQQQQQqqqqqqqq...",
+     "....qqqqqqqqqQQQQQQQQXXXXXXXQQQQQQQQqqqqqqqqq....",
+     "......qqqqqqqqqqqQQQQQQQQQQQQQQQqqqqqqqqqqq......",
+     "........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq........",
+     "...........qqqqqqqqqqqqqqqqqqqqqqqqqqq..........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 5,
+    "x": 26,
+    "y": 27,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".......Y.....",
+     "......RA.....",
+     "......AA.....",
+     ".....RYA.....",
+     ".....AZA...RR",
+     "....RYYA...AR",
+     ".AR.AYYA..RYR",
+     "RYR.AYYA..AYR",
+     "RZA.AYZARRYYR",
+     "AZARAZZYAAZYR",
+     "AYYAAZZYYYZYR",
+     "AYZYYZZYZYZYA",
+     "AYZYYZZYZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 5,
+    "x": 29,
+    "y": 6,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     ".....R....",
+     "..........",
+     "....VVVV..",
+     "....VVVV..",
+     "....VVVV..",
+     "A.........",
+     "..........",
+     "..........",
+     ".......vvv",
+     "......vvvv",
+     "..A....vvv",
+     "..........",
+     "..........",
+     "..........",
+     ".....vv...",
+     ".....vv...",
+     "..........",
+     "..........",
+     "..........",
+     "..........",
+     "......Y..."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 6,
+    "x": 4,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......................+...................................",
+     ".............+............................................",
+     "+.....................................................+...",
+     "................................*.........................",
+     "..........................................................",
+     "...................+......................................",
+     "..........................................................",
+     ".............................+............................",
+     "..........................................................",
+     ".....................................+....................",
+     "..........................................................",
+     ".........................*................................",
+     ".........................................................+",
+     "..........................................................",
+     "..........................................................",
+     "........................................+..........+......",
+     "..................................................+*+.....",
+     "...................................................+......",
+     "..........*..............................................."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 6,
+    "x": 6,
+    "y": 29,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     ".................qqqqqqqqqqqqqqqqqqq.................",
+     "............qqqqqqqqqqqqqqqqqqqqqqqqqqqqq............",
+     ".........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.........",
+     "......qqqqqqqqqqqqqqQQQQQQQQQQQQQqqqqqqqqqqqqqq......",
+     "....qqqqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqqqq....",
+     "...qqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqq...",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqqQQQQQQQQQQQXXXXXXXXXXXQQQQQQQQQQQqqqqqqqqq.",
+     "qqqqqqqqqQQQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQQQqqqqqqqqq",
+     "qqqqqqqqQQQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq",
+     ".qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq.",
+     "..qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq..",
+     "...qqqqqqqqqqQQQQQQQQXXXXXXXXXXXQQQQQQQQqqqqqqqqqq...",
+     "....qqqqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqqqq....",
+     "......qqqqqqqqqqqqqqQQQQQQQQQQQQQqqqqqqqqqqqqqq......",
+     ".........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 6,
+    "x": 26,
+    "y": 28,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".......RR....",
+     ".......AR....",
+     "......RYR....",
+     "...Y..AYR....",
+     "..AR.RYYR....",
+     ".RYR.AYYR.RA.",
+     ".AY.RAZYR.RYR",
+     "RYY.AYZYR.RZR",
+     "AYYRAYZYARAZA",
+     "AYYAAZZYYAYYA",
+     "AYZYAZZYZYZYA",
+     "AYZYYZZYZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 6,
+    "x": 29,
+    "y": 5,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     "......V...",
+     "....VVVVV.",
+     "....VVVVV.",
+     ".R...VVV..",
+     "..........",
+     "..........",
+     "..........",
+     "......VVVV",
+     "A.....VVVV",
+     ".......VV.",
+     "..........",
+     "..........",
+     "..........",
+     "...Avvv...",
+     "....vvv...",
+     "..........",
+     "..........",
+     "..........",
+     ".......Y..",
+     "..........",
+     "..........",
+     "..........",
+     "Y........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 7,
+    "x": 4,
+    "y": 1,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......................+...................................",
+     ".............*............................................",
+     "+.....................................................+...",
+     "................................+.........................",
+     "..........................................................",
+     "...................+......................................",
+     "..........................................................",
+     "..........................................................",
+     ".......*..................................................",
+     "..........................................................",
+     "..........................................................",
+     ".........................+................................",
+     ".........................................................+",
+     "....+.....................................................",
+     "...+*+....................................................",
+     "....+...................................*.................",
+     "...................................................+......",
+     "..........................................................",
+     "..........+..............................................."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 7,
+    "x": 7,
+    "y": 29,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     "....................qqqqqqqqqqq....................",
+     ".............qqqqqqqqqqqqqqqqqqqqqqqqq.............",
+     "..........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq..........",
+     ".......qqqqqqqqqqqqqqqQQQQQQQqqqqqqqqqqqqqqq.......",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     "...qqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqq...",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqqQQQQQQQQQQXXXXXXXXXXXQQQQQQQQQQqqqqqqqqq.",
+     "qqqqqqqqqQQQQQQQQQXXXXXXXXXXXXXXXQQQQQQQQQqqqqqqqqq",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQQqqqqqqqq",
+     "qqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqq",
+     "qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq",
+     ".qqqqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqqqq.",
+     "..qqqqqqqqqQQQQQQQXXXXXXXXXXXXXXXQQQQQQQqqqqqqqqq..",
+     "...qqqqqqqqqqQQQQQQQXXXXXXXXXXXQQQQQQQqqqqqqqqqq...",
+     ".....qqqqqqqqqqqQQQQQQQQQQQQQQQQQQQqqqqqqqqqqq.....",
+     ".......qqqqqqqqqqqqqqqQQQQQQQqqqqqqqqqqqqqqq.......",
+     "..........qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq.........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 7,
+    "x": 26,
+    "y": 30,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".......A.....",
+     ".......YR....",
+     "......RYR....",
+     "...A..RYARR..",
+     "..RYRRAZARYR.",
+     ".RYAYAYYA.YA.",
+     ".AZAYAZYARYYR",
+     "RYZAAZZYYAYYA",
+     "AYZAAZZYZAZYA",
+     "AYZYYZZZZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 7,
+    "x": 27,
+    "y": 5,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     ".....R......",
+     "............",
+     "............",
+     "............",
+     ".........V..",
+     "R.......VVVV",
+     "........VVVV",
+     ".........V..",
+     "............",
+     "............",
+     ".....A......",
+     ".....vvvv...",
+     "......vvv...",
+     "............",
+     "............",
+     ".........Y..",
+     "............",
+     "........vv..",
+     "........vv..",
+     "..Y........."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "e83d4ef2-1c9f-46b3-8719-845fd2144f93",
+    "frame": 8,
+    "x": 4,
+    "y": 2,
+    "legend": {
+     "*": {
+      "rgba": [
+       232,
+       232,
+       255,
+       255
+      ]
+     },
+     "+": {
+      "rgba": [
+       130,
+       140,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     ".............+............................................",
+     "+.....................................................*...",
+     "................................+.........................",
+     "..........................................................",
+     "..........................................................",
+     "..........................................................",
+     ".............................*............................",
+     ".......+.............................+....................",
+     "....................................+*+...................",
+     ".....................................+....................",
+     ".........................+................................",
+     ".........................................................+",
+     "..........................................................",
+     "....+.....................................................",
+     "........................................+.................",
+     "...................................................+......",
+     "..........................................................",
+     "..........+..............................................."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "ad4ffebb-b1ae-4654-8bd5-f3cee8bbb8e0",
+    "frame": 8,
+    "x": 10,
+    "y": 30,
+    "legend": {
+     "Q": {
+      "rgba": [
+       255,
+       150,
+       60,
+       38
+      ]
+     },
+     "X": {
+      "rgba": [
+       255,
+       170,
+       80,
+       58
+      ]
+     },
+     "q": {
+      "rgba": [
+       255,
+       140,
+       50,
+       22
+      ]
+     }
+    },
+    "rows": [
+     ".....................qqq.....................",
+     "............qqqqqqqqqqqqqqqqqqqqq............",
+     "........qqqqqqqqqqqqqqqqqqqqqqqqqqqqq........",
+     "......qqqqqqqqqqqqQQQQQQQQQqqqqqqqqqqqq......",
+     "....qqqqqqqqqQQQQQQQQQQQQQQQQQQQqqqqqqqqq....",
+     "..qqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqq..",
+     ".qqqqqqqqQQQQQQQQQQQQXXXQQQQQQQQQQQQqqqqqqqq.",
+     ".qqqqqqqQQQQQQQQXXXXXXXXXXXXXQQQQQQQQqqqqqqq.",
+     "qqqqqqqQQQQQQQQXXXXXXXXXXXXXXXQQQQQQQQqqqqqqq",
+     "qqqqqqqQQQQQQQXXXXXXXXXXXXXXXXXQQQQQQQqqqqqqq",
+     "qqqqqqqQQQQQQXXXXXXXXXXXXXXXXXXXQQQQQQqqqqqqq",
+     ".qqqqqqqQQQQQQXXXXXXXXXXXXXXXXXQQQQQQqqqqqqq.",
+     ".qqqqqqqqQQQQQQXXXXXXXXXXXXXXXQQQQQQqqqqqqqq.",
+     "..qqqqqqqqqQQQQQXXXXXXXXXXXXXQQQQQqqqqqqqqq..",
+     "....qqqqqqqqqQQQQQQQQXXXQQQQQQQQqqqqqqqqq....",
+     "......qqqqqqqqqqqqQQQQQQQQQqqqqqqqqqqqq......",
+     "........qqqqqqqqqqqqqqqqqqqqqqqqqqqqq........",
+     "............qqqqqqqqqqqqqqqqqqqqq............"
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "358d8844-f855-49be-96da-41f328062f7b",
+    "frame": 8,
+    "x": 26,
+    "y": 29,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "Z": {
+      "rgba": [
+       255,
+       246,
+       196,
+       255
+      ]
+     }
+    },
+    "rows": [
+     "......R......",
+     "......AR.....",
+     "......AA.R...",
+     "......AYRYR..",
+     "......AYAYA..",
+     "...RYRYZAYYR.",
+     "..RYYAYZYAZA.",
+     "..AYZAYZYAZYR",
+     ".AYYYYZZYAZYA",
+     "RYZYYZZZYYZYA",
+     "AYZYYZZZZYZYA",
+     "AYZYYZZZZZZZA",
+     "AYYYAYZYYYZYA",
+     ".AAAAAYAAAAA.",
+     ".....AAA....."
+    ]
+   },
+   {
+    "op": "rows",
+    "layer_id": "2c313192-4664-4825-8966-bc9d83a30db9",
+    "frame": 8,
+    "x": 26,
+    "y": 7,
+    "legend": {
+     "A": {
+      "rgba": [
+       244,
+       124,
+       32,
+       255
+      ]
+     },
+     "R": {
+      "rgba": [
+       204,
+       52,
+       30,
+       255
+      ]
+     },
+     "V": {
+      "rgba": [
+       170,
+       170,
+       190,
+       26
+      ]
+     },
+     "Y": {
+      "rgba": [
+       255,
+       204,
+       64,
+       255
+      ]
+     },
+     "v": {
+      "rgba": [
+       170,
+       170,
+       190,
+       46
+      ]
+     }
+    },
+    "rows": [
+     "R........VVV.",
+     "........VVVVV",
+     "........VVVVV",
+     ".............",
+     ".............",
+     ".......A.....",
+     ".......vv....",
+     "......vvvv...",
+     "......vvv....",
+     ".............",
+     "..........A..",
+     ".............",
+     ".............",
+     ".........vvv.",
+     "....Y....vv..",
+     ".............",
+     ".............",
+     ".............",
+     ".............",
+     "......Y......"
+    ]
+   }
+  ]
+ }
+]
